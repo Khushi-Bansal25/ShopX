@@ -1,0 +1,129 @@
+table,check,issue_count
+KNA1,row_count,30
+KNA1,missing_primary_key,0
+KNA1,duplicate_primary_key,0
+KNA1,full_row_duplicate,0
+KNA1,missing_Customer ID,0
+KNA1,missing_Customer Name,0
+KNA1,missing_Country,0
+KNA1,missing_Region,0
+KNA1,missing_City,0
+KNA1,missing_Postal Code,0
+KNA1,missing_Street Address,0
+KNA1,missing_Phone Number,0
+KNA1,missing_Email Address,0
+KNA1,missing_Language,0
+KNA1,missing_Tax Number,0
+KNA1,missing_Customer Group,0
+KNA1,missing_Sales Organization,0
+KNA1,missing_Distribution Channel,0
+KNA1,missing_Division,0
+LFA1,row_count,30
+LFA1,missing_primary_key,0
+LFA1,duplicate_primary_key,0
+LFA1,full_row_duplicate,0
+LFA1,missing_Vendor Number,0
+LFA1,missing_Vendor Name,0
+LFA1,missing_Country,0
+LFA1,missing_Region,0
+LFA1,missing_City,0
+LFA1,missing_Postal Code,0
+LFA1,missing_Street Address,0
+LFA1,missing_Phone Number,0
+LFA1,missing_Email Address,0
+LFA1,missing_Language,0
+LFA1,missing_Tax Number,0
+LFA1,missing_Payment Terms,0
+VBAK,row_count,22
+VBAK,missing_primary_key,0
+VBAK,duplicate_primary_key,0
+VBAK,full_row_duplicate,0
+VBAK,missing_Sales Document,0
+VBAK,missing_Order Date,0
+VBAK,missing_Customer ID,0
+VBAK,missing_Order Type,0
+VBAK,missing_Sales Organization,0
+VBAK,missing_Distribution Channel,0
+VBAK,missing_Division,0
+VBAK,missing_Order Status,0
+VBAP,row_count,23
+VBAP,missing_primary_key,0
+VBAP,duplicate_primary_key,0
+VBAP,full_row_duplicate,0
+VBAP,missing_Sales Document,0
+VBAP,missing_Item Number,0
+VBAP,missing_Material Number,0
+VBAP,missing_Quantity,0
+VBAP,missing_Net Price,0
+VBAP,missing_Item Status,0
+VBAP,missing_Delivery Date,0
+LIKP,row_count,20
+LIKP,missing_primary_key,0
+LIKP,duplicate_primary_key,0
+LIKP,full_row_duplicate,0
+LIKP,missing_Delivery Number,0
+LIKP,missing_Delivery Date,0
+LIKP,missing_Sales Document,0
+LIKP,missing_Shipping Point,0
+LIKP,missing_Shipping Type,0
+LIKP,missing_Delivery Status,0
+LIKP,missing_Shipping Status,0
+LIKP,missing_Route,0
+LIKP,missing_Delivery Priority,0
+LIKP,missing_Customer ID,0
+LIPS,row_count,21
+LIPS,missing_primary_key,0
+LIPS,duplicate_primary_key,0
+LIPS,full_row_duplicate,0
+LIPS,missing_Delivery Number,0
+LIPS,missing_Item Number,0
+LIPS,missing_Material Number,0
+LIPS,missing_Delivered Quantity,0
+LIPS,missing_Net Price,0
+LIPS,missing_Delivery Status,0
+LIPS,missing_Customer ID,0
+LIPS,missing_Sales Document,0
+LIPS,missing_Sales Item,0
+LIPS,missing_Delivery Date,0
+VTTK,row_count,20
+VTTK,missing_primary_key,0
+VTTK,duplicate_primary_key,0
+VTTK,full_row_duplicate,0
+VTTK,missing_Shipment Number,0
+VTTK,missing_Shipment Date,0
+VTTK,missing_Sales Document,0
+VTTK,missing_Delivery Number,0
+VTTK,missing_Shipping Point,0
+VTTK,missing_Carrier,0
+VTTK,missing_Shipment Status,0
+VTTK,missing_Route,0
+VTTK,missing_Shipping Type,0
+VTTK,missing_Customer ID,0
+VTTP,row_count,21
+VTTP,missing_primary_key,0
+VTTP,duplicate_primary_key,0
+VTTP,full_row_duplicate,0
+VTTP,missing_Shipment Number,0
+VTTP,missing_Item Number,0
+VTTP,missing_Material Number,0
+VTTP,missing_Shipped Quantity,0
+VTTP,missing_Item Status,0
+VTTP,missing_Delivery Number,0
+VTTP,missing_Customer ID,0
+VTTP,missing_Sales Document,0
+VTTP,missing_Sales Item,0
+VTTP,missing_Shipment Date,0
+VBAK,orphan_Customer ID_to_KNA1,0
+VBAP,orphan_Sales Document_to_VBAK,0
+LIKP,orphan_Sales Document_to_VBAK,0
+LIPS,orphan_Delivery Number_to_LIKP,0
+VTTK,orphan_Delivery Number_to_LIKP,0
+VTTP,orphan_Shipment Number_to_VTTK,0
+VBAK,unparseable_date_Order Date,0
+VBAP,unparseable_date_Delivery Date,0
+LIKP,unparseable_date_Delivery Date,0
+VTTK,unparseable_date_Shipment Date,0
+KNA1,corrupted_Phone_Number,0
+LFA1,corrupted_Phone_Number,30
+VTTK,carrier_not_mappable_to_LFA1_vendor,3
+VBAK,order_status_delivered_but_no_delivery_or_shipment_record,1

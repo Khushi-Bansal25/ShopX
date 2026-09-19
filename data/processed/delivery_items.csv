@@ -1,0 +1,22 @@
+delivery_id,item_number,product_id,delivered_quantity,unit_price,item_delivery_status,Customer ID,order_id,sales_item,delivery_date,delivery_header_date,shipping_point,shipping_type,delivery_header_status,shipping_status,route,delivery_priority
+1001001,10,MAT001,100,50,Delivered,CUST001,1000001,10,2025-02-10,2025-02-10,SP001,Standard,Open,Not Shipped,1,High
+1001001,20,MAT002,200,30,Delivered,CUST001,1000001,20,2025-02-10,2025-02-10,SP001,Standard,Open,Not Shipped,1,High
+1001002,10,MAT003,150,40,Delivered,CUST002,1000002,10,2025-02-11,2025-02-11,SP002,Express,Delivered,Shipped,2,Medium
+1001003,10,MAT001,300,50,Delivered,CUST003,1000003,10,2025-02-12,2025-02-12,SP001,Standard,Open,Not Shipped,3,Low
+1001004,10,MAT004,500,25,Delivered,CUST004,1000004,10,2025-02-13,2025-02-13,SP003,Express,Delivered,Shipped,4,High
+1001005,10,MAT001,200,50,Delivered,CUST005,1000005,10,2025-02-14,2025-02-14,SP001,Standard,Open,Not Shipped,5,Medium
+1001006,10,MAT003,120,40,Delivered,CUST006,1000006,10,2025-02-15,2025-02-15,SP002,Express,Delivered,Shipped,6,High
+1001007,10,MAT002,250,30,Delivered,CUST007,1000007,10,2025-02-16,2025-02-16,SP003,Standard,Open,Not Shipped,7,Low
+1001008,10,MAT004,300,25,Delivered,CUST008,1000008,10,2025-02-17,2025-02-17,SP001,Express,Delivered,Shipped,8,Medium
+1001009,10,MAT001,350,50,Delivered,CUST009,1000009,10,2025-02-18,2025-02-18,SP002,Standard,Open,Not Shipped,9,High
+1001010,10,MAT003,400,40,Delivered,CUST010,1000010,10,2025-02-19,2025-02-19,SP003,Express,Delivered,Shipped,10,Low
+1001011,10,MAT002,150,30,Delivered,CUST011,1000011,10,2025-02-20,2025-02-20,SP001,Standard,Open,Not Shipped,11,Medium
+1001012,10,MAT001,500,50,Delivered,CUST012,1000012,10,2025-02-21,2025-02-21,SP002,Express,Delivered,Shipped,12,High
+1001013,10,MAT004,200,25,Delivered,CUST013,1000013,10,2025-02-22,2025-02-22,SP003,Standard,Open,Not Shipped,13,Low
+1001014,10,MAT003,250,40,Delivered,CUST014,1000014,10,2025-02-23,2025-02-23,SP001,Express,Delivered,Shipped,14,Medium
+1001015,10,MAT002,400,30,Delivered,CUST015,1000015,10,2025-02-24,2025-02-24,SP002,Standard,Open,Not Shipped,15,High
+1001016,10,MAT001,300,50,Delivered,CUST016,1000016,10,2025-02-25,2025-02-25,SP003,Express,Delivered,Shipped,16,Low
+1001017,10,MAT003,150,40,Delivered,CUST017,1000017,10,2025-02-26,2025-02-26,SP001,Standard,Open,Not Shipped,17,Medium
+1001018,10,MAT004,500,25,Delivered,CUST018,1000018,10,2025-02-27,2025-02-27,SP002,Express,Delivered,Shipped,18,High
+1001019,10,MAT001,250,50,Delivered,CUST019,1000019,10,2025-02-28,2025-02-28,SP003,Standard,Open,Not Shipped,19,Low
+1001020,10,MAT002,200,30,Delivered,CUST020,1000020,10,2025-03-01,2025-03-01,SP001,Express,Delivered,Shipped,20,Medium

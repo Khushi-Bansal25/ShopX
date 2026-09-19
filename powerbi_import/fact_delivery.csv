@@ -1,0 +1,21 @@
+delivery_id,order_id,customer_id,delivery_date,delivery_status,shipping_status,shipping_point,shipping_type,route,delivery_priority
+1001001,1000001,CUST001,2025-02-10,Open,Not Shipped,SP001,Standard,1,High
+1001002,1000002,CUST002,2025-02-11,Delivered,Shipped,SP002,Express,2,Medium
+1001003,1000003,CUST003,2025-02-12,Open,Not Shipped,SP001,Standard,3,Low
+1001004,1000004,CUST004,2025-02-13,Delivered,Shipped,SP003,Express,4,High
+1001005,1000005,CUST005,2025-02-14,Open,Not Shipped,SP001,Standard,5,Medium
+1001006,1000006,CUST006,2025-02-15,Delivered,Shipped,SP002,Express,6,High
+1001007,1000007,CUST007,2025-02-16,Open,Not Shipped,SP003,Standard,7,Low
+1001008,1000008,CUST008,2025-02-17,Delivered,Shipped,SP001,Express,8,Medium
+1001009,1000009,CUST009,2025-02-18,Open,Not Shipped,SP002,Standard,9,High
+1001010,1000010,CUST010,2025-02-19,Delivered,Shipped,SP003,Express,10,Low
+1001011,1000011,CUST011,2025-02-20,Open,Not Shipped,SP001,Standard,11,Medium
+1001012,1000012,CUST012,2025-02-21,Delivered,Shipped,SP002,Express,12,High
+1001013,1000013,CUST013,2025-02-22,Open,Not Shipped,SP003,Standard,13,Low
+1001014,1000014,CUST014,2025-02-23,Delivered,Shipped,SP001,Express,14,Medium
+1001015,1000015,CUST015,2025-02-24,Open,Not Shipped,SP002,Standard,15,High
+1001016,1000016,CUST016,2025-02-25,Delivered,Shipped,SP003,Express,16,Low
+1001017,1000017,CUST017,2025-02-26,Open,Not Shipped,SP001,Standard,17,Medium
+1001018,1000018,CUST018,2025-02-27,Delivered,Shipped,SP002,Express,18,High
+1001019,1000019,CUST019,2025-02-28,Open,Not Shipped,SP003,Standard,19,Low
+1001020,1000020,CUST020,2025-03-01,Delivered,Shipped,SP001,Express,20,Medium
