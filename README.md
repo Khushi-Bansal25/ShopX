@@ -66,13 +66,6 @@ pytest tests/test_pipeline.py -v
 
 All 8 tests pass against the current dataset (verified during development).
 
-## Known limitations / questions for your trainer
-
-1. Is the Excel workbook the only source, or is direct SAP extraction required?
-2. Is there a promised/planned delivery date field anywhere, to compute a true
-   on-time rate? Currently only `VBAP.Delivery Date` (requested) exists.
-3. How should `VTTK.Carrier` map to `LFA1.Vendor Number` — confirmed they
-   don't match in the current data. Is a crosswalk table coming, or should
    carrier stay a standalone dimension?
 4. Where would customer satisfaction / rating data come from, if required
    by the dashboard?
